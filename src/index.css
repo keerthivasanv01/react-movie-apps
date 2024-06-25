@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(147, 124, 124, 0.509);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.coverimage:hover{
+  transform: scale(1);
+    cursor: zoom-in;
+    transition:0.1s;
+    border-radius: 15px;
+    cursor: pointer;
+    /* background-color:rgba(147, 124, 124, 0.509); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.719), 0 0 10px #000000cb, 0 0 10px #000000e0;
+}
+.moviecard:hover{
+  transform: scale(1.02);
+    cursor: zoom-in;
+    transition:0.1s;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color:rgba(147, 124, 124, 0.329);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.719), 0 0 10px #000000cb, 0 0 10px #000000e0;
+}
+.user{
+  color:white;
+}
+.title,.top10{
+  font-size: 30px;
+  color: white;
+  width: 50%;
+}
+
